@@ -11,7 +11,7 @@ h1{
     color: green;
 }
 
-section{
+.section2{
     display: flex;
     margin-bottom: 100px;
 }
@@ -19,6 +19,7 @@ section{
 .half-width{
     width: 50%;
     padding-left: 5%;
+    
 }
 
 .half-width img{
@@ -37,7 +38,7 @@ section{
 
 }
 
-#top-banner{
+.top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
@@ -54,9 +55,45 @@ section{
 }
 
 
-#Dream-Big{
+.Dream-Big{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
-    background-size: 8%;
+    background-size: 10%;
+}
+
+
+.get{
+    background-color:yellow;
+}
+
+.half-width3{
+    box-shadow: 10px 10px 30px yellowgreen;
+    width: 50%;
+    margin: 2%;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+
+#Exprience-Area{
+    background-image:url(images/exp-bg.png) ;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#Slice{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#Slice2{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
 }
